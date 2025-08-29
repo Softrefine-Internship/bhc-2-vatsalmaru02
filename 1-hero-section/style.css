@@ -1,1 +1,113 @@
 /* write your css here */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .nav ul li {
+    list-style: none;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    font-size: 1.8rem;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .login {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #555;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  /* li {
+    font-size: 1.5rem;
+    float: left;
+    margin: 1rem;
+  
+    list-style-type: none;
+    padding-left: 2rem;
+  } */
+  
+  .container-2 {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hero-section {
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .announcement {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #adadad;
+    border: 2px solid #eee;
+    border-radius: 3rem;
+  }
+  
+  .main-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .description {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color: #adadad;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    display: inline-block;
+  }
+  
+  .buttons .get-started {
+    background-color: #5e3bff;
+    color: #fff;
+  }
+  
