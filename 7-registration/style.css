@@ -97,6 +97,12 @@ input {
   font-weight: 500;
 }
 
+.forgot-pass:hover{
+  color: #3c3cd1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .empty {
   display: flex;
   align-items: center;
@@ -121,6 +127,7 @@ input {
   background-color: #4848e0;
   cursor: pointer;
   margin-bottom: 1rem;
+  padding: 1rem 0;
 }
 
 .sign-in:hover {
@@ -191,4 +198,10 @@ input {
 .trial {
   font-size: 14px;
   color: #868e96;
+}
+
+.trial-link:hover{
+  color: #3c3cd1;
+  text-decoration: underline;
+  cursor: pointer;
 }

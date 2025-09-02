@@ -12,8 +12,43 @@ html {
 }
 
 body {
-  background: rgb(220, 220, 239);
-  background: radial-gradient(circle, #dcdcef 30%, #eef2ef 71%, #f8f8f8 100%);
+  height: 100vh;
+}
+
+.bg {
+  background-image: radial-gradient(
+    closest-side,
+    rgba(238, 190, 250, 0.7),
+    transparent
+  );
+  height: 525px;
+  width: 525px;
+  z-index: -1;
+  position: absolute;
+}
+
+.bg-1 {
+  height: 200px;
+  width: 200px;
+  top: -8%;
+  left: -2%;
+}
+
+.bg-2 {
+  top: 0;
+  left: 0;
+  transform: translate(-10%, 0%);
+}
+
+.bg-3 {
+  background-image: radial-gradient(
+    closest-side,
+    rgba(176, 151, 252, 0.7),
+    transparent
+  );
+  top: 0;
+  right: 50%;
+  transform: translate(32%, -25%);
 }
 
 .container {
@@ -44,6 +79,7 @@ body {
   margin-top: 3rem;
   /* margin-right: 3rem; */
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .nav ul li a {
@@ -63,6 +99,7 @@ body {
 .login {
   text-decoration: none;
   font-size: 1.5rem;
+  font-weight: 600;
   margin-right: 1rem;
   margin-top: 3.5rem;
   color: #555;
@@ -78,14 +115,10 @@ body {
   font-weight: 700;
 }
 
-/* li {
-    font-size: 1.5rem;
-    float: left;
-    margin: 1rem;
-  
-    list-style-type: none;
-    padding-left: 2rem;
-  } */
+.read-more:hover {
+  color: #4b2ecc;
+  text-decoration: underline;
+}
 
 .container-2 {
   height: 100%;
@@ -109,8 +142,9 @@ body {
 }
 
 .main-heading {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5rem;
   text-align: center;
   color: #333;
 }
@@ -118,6 +152,7 @@ body {
 .description {
   line-height: 2rem;
   font-size: 1.5rem;
+  font-weight: 500;
   color: #999999;
 }
 
@@ -136,7 +171,7 @@ body {
   display: inline-block;
 }
 
-.buttons .get-started {
+.get-started {
   background-color: #5e3bff;
   color: #fff;
 }
@@ -146,7 +181,11 @@ body {
   color: #fff;
 }
 
-.learn-more:hover {
+.learn-more {
   color: #333;
+}
+
+.learn-more:hover {
+  color: #4b2ecc;
   text-decoration: underline;
 }

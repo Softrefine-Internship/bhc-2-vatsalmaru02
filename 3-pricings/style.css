@@ -12,6 +12,7 @@ html {
 
 body {
   height: 100vh;
+
 }
 
 .header {
@@ -31,7 +32,7 @@ body {
 
 .title {
   font-size: 1.6rem;
-  color: #4b0082;
+  color: #00f;
   font-weight: 600;
 }
 
@@ -87,13 +88,14 @@ body {
 
 .price-head {
   font-size: 1.2rem;
+  font-weight: 500;
   color: #999999;
 }
 
 .btn {
   text-decoration: none;
   text-align: center;
-  background-color: #00f;
+  background-color: #3333ff;
   color: #fff;
   font-weight: 600;
   font-size: 1.4rem;
@@ -127,5 +129,6 @@ body {
     align-items: center;
     gap: 1rem;
     font-size: 1.2rem;
+    font-weight: 400;
     color: #666666;
 }

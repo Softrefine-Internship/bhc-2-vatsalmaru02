@@ -7,7 +7,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter",sans-serif
 }
 
 .contact-us {
@@ -32,6 +32,10 @@ html {
   width: 45%;
 }
 
+.container-2 {
+  margin-bottom: 8rem;
+}
+
 h2 {
   font-size: 3.6rem;
   text-align: center;
@@ -42,13 +46,14 @@ p {
   font-size: 1.8rem;
   color: #495057;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  margin-top: 2rem;
 }
 
 .form-field {
@@ -66,6 +71,7 @@ form {
 
 label {
   font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 input,

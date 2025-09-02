@@ -24,8 +24,8 @@ html {
 .image {
   background-image: linear-gradient(
       to bottom right,
-      rgb(42, 42, 114, 0.6),
-      rgb(16, 159, 253, 0.6)
+      rgba(7, 7, 26, 0.219),
+      rgba(8, 45, 69, 0.212)
     ),
     url(design.png);
   max-width: 100%;
@@ -66,10 +66,10 @@ a {
   background-color: #1a1a4f;
   text-decoration: none;
   font-size: 1.6rem;
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
   border-radius: 8px;
 }
 
-a:hover{
-    background-color: #6c63ff;
+a:hover {
+  background-color: #6c63ff;
 }
