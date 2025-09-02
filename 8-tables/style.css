@@ -1,1 +1,108 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  color: #343a34;
+  line-height: 1.6;
+}
+
+tables {
+  margin: 3rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+  color: #495057;
+}
+
+.add-user {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4848e0;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #3c3cba;
+}
+
+.container {
+  padding: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 2rem;
+}
+
+thead th {
+  text-align: left;
+}
+
+th,
+td {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+
+td {
+  color: #868e96;
+}
+
+tbody tr td:first-child {
+  color: #495057;
+  font-weight: 600;
+}
+
+tbody tr td:last-child {
+  text-align: right;
+}
+
+.edit-btn {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #4848e0;
+  background: none;
+  border: none;
+}
+
+.edit-btn:hover {
+  color: #3c3cba;
+}
+
+tbody tr {
+  border-top: 1px solid #dee2e6;
+}
+
+tbody tr:first-child {
+  border-top: 1px solid #ced4da;
+}

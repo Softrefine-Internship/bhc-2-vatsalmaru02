@@ -1,1 +1,194 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  color: #343a40;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.registration {
+  height: 100vh;
+  width: 32%;
+  padding: 2.2rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo-icon {
+  height: 30px;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+.reg-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  padding: 4.3rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+label {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+input {
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  padding: 0.5rem 0.7rem;
+}
+
+.remember-me {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #495057;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.remember input[type="checkbox"] {
+  accent-color: #4848e0;
+  transform: scale(1.25);
+  cursor: pointer;
+}
+
+.remember label {
+  cursor: pointer;
+}
+
+.forgot-pass:link,
+.forgot-pass:visited,
+.trial-link:link,
+.trial-link:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #4848e0;
+  font-weight: 500;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.line {
+  border: 0.5px solid #dee2e6;
+  flex: 1;
+}
+
+.continue {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.sign-in {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #4848e0;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.sign-in:hover {
+  background-color: #3c3cd1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn--twitter {
+  background-color: #4dabf7;
+}
+
+.btn--twitter:hover {
+  background-color: #339af0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn--github {
+  background-color: #212529;
+}
+
+.btn--github:hover {
+  background-color: #1c1f24;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.icon {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.icon--twitter {
+  fill: #fff;
+}
+
+.icon--github {
+  fill: #fff;
+  stroke: #212529;
+}
+
+.trial {
+  font-size: 14px;
+  color: #868e96;
+}
