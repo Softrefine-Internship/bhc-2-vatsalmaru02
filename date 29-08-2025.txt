@@ -1,0 +1,42 @@
+date: 29-08-2025
+BHC test 2 hero-section start time: 05:42 PM
+endtime 01 hero-section : 06:55
+
+total 1 hour 3 minutes
+
+
+date:01-09-2025
+
+BHC test 2 call to action start time:01:35 PM
+BHC test 2 call to action end time: 02:07 PM
+total time: 32 minites
+
+BHC test 2 pricing start time:02:08 PM
+BHC test 2 pricing end time:03:00 PM
+total time: 52 minutes
+
+BHC test 2 news latter start time:03:04 PM
+BHC test 2 news latter end time:03:30 PM
+total time: 26 minutes
+
+BHC test 2 blog start time:03:35 PM
+BHC test 2 blog end tine: 05:15 PM
+total time: 1 hour 40 minutes
+
+BHC test 2 contact-us start time: 05:36 PM
+BHC test 2 contact-us start time: 06:40 PM
+total time: 1 hour 4 minutes
+
+BHC test 2 registration start time: 01:10 PM
+BHC test 2 registration end time: 02:05 PM
+total time: 55 minutes 
+
+BHC test 2 table start time : 02:10 PM
+BHC test 2 table end time: 02:36 PM
+total time : 26 minutes
+
+
+total time for all sections :6 hours 7 minutes 
+
+total time with changes : 7 hours 22 minutes
+				
