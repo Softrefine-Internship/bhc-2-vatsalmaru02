@@ -76,6 +76,12 @@ td {
   padding: 2rem 0;
 }
 
+tr:hover {
+  transform: scale(1.01);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
 td {
   color: #868e96;
 }
