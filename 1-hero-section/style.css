@@ -27,6 +27,11 @@ body {
   position: absolute;
 }
 
+.logo-icon {
+  height: 20px;
+  margin-left: 1rem;
+}
+
 .bg-1 {
   height: 200px;
   width: 200px;
